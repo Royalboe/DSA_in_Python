@@ -17,7 +17,7 @@ Here is the generic algorithm for binary search, implemented in Python:
 '''
 
 
-def binary_serach(lo, hi, condition):
+def binary_search(lo, hi, condition):
     '''TODOS'''
     while lo <= hi:
         mid = (lo + hi) // 2
@@ -42,4 +42,4 @@ def locate_query(list_a, query):
             return 'left'
         else:
             return 'right'
-    return binary_serach(0, len(list_a) - 1, condition)
+    return binary_search(0, len(list_a) - 1, condition)
