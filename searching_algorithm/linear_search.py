@@ -1,4 +1,6 @@
-''' A function for linear search '''
+''' A function for linear search 
+    It has a big O of O(n) which is a complexity of linear time
+'''
 
 def linear_search(list_a, query):
     position = 0
