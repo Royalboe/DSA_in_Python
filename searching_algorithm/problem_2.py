@@ -1,3 +1,11 @@
+'''
+Problem:
+Given an array of integers nums sorted in ascending order, 
+find the starting and ending position of a given number.
+'''
+
+
+
 from binary_search import binary_search
 
 def first_position(nums, target):

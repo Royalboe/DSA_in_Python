@@ -2,6 +2,20 @@
     It has a big O of O(log N) which is a complexity of logarithmic time
 '''
 
+'''
+## Generic Binary Search
+
+Here is the general strategy behind binary search, which is applicable to a variety of problems:
+
+1. Come up with a condition to determine whether the answer lies before, after or at a given position
+1. Retrieve the midpoint and the middle element of the list.
+2. If it is the answer, return the middle position as the answer.
+3. If answer lies before it, repeat the search with the first half of the list
+4. If the answer lies after it, repeat the search with the second half of the list.
+
+Here is the generic algorithm for binary search, implemented in Python:
+'''
+
 
 def binary_serach(lo, hi, condition):
     '''TODOS'''
